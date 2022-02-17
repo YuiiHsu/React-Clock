@@ -1,0 +1,39 @@
+.App {
+  width: 1280px;
+  height: 800px;
+  background-color: #293B29;
+}
+
+.clockArea {
+  position:relative;
+  top: 200px;
+  left: 440px;
+  width: 400px;
+  height: 400px;
+  background: transparent url('./Assets/clock-bg.svg') 0% 0% no-repeat padding-box;
+  background-position: center center;
+}
+
+.hour {
+  position: absolute;
+  z-index: 2;
+  left: 200px;
+  top: 192px;
+  transform-origin: left;
+}
+
+.min {
+  position: absolute;
+  z-index: 3;
+  left: 196px;
+  top: 103px;
+  transform-origin: bottom;
+}
+
+.sec {
+  position: absolute;
+  z-index: 1;
+  top: 199px;
+  left: 194px;
+  transform-origin: top;
+}
